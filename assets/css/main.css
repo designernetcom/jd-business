@@ -1280,7 +1280,7 @@ div {
 
 .main-header__menu {
   background-color: #020300;
-  display: none;
+  /* display: none; */
 }
 .main-header__menu .main-header__menu-box {
   padding-top: 12px;

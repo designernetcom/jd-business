@@ -1167,6 +1167,23 @@ div {
   background-color: #333333;
   display: none !important;
 }
+
+@media (max-width: 991px) {
+
+  .main-header__topbar {
+  
+    display: none !important;
+  }
+  .main-header__menu {
+    display: none;
+  }
+}
+
+.main-header__topbar {
+  padding: 10px 0px;
+  background-color: #333333;
+  /* display: none !important; */
+}
 .main-header__topbar .main-header__topbar__content {
   display: -webkit-box;
   display: -ms-flexbox;

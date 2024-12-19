@@ -1280,6 +1280,7 @@ div {
 
 .main-header__menu {
   background-color: #020300;
+  display: none;
 }
 .main-header__menu .main-header__menu-box {
   padding-top: 12px;
@@ -1339,7 +1340,7 @@ div {
   padding: 50px 15px;
   width: 100%;
   line-height: 1;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .main-header__menu .navbar__item a:hover {
   color: var(--base-color);
@@ -1845,7 +1846,7 @@ div {
   -webkit-transition-delay: 300ms;
           transition-delay: 300ms;
 }
-
+ 
 .mobile-menu__backdrop-active {
   width: 100%;
   visibility: visible;
@@ -1958,6 +1959,7 @@ div {
           animation: stickyNavbar 0.5s linear;
   -webkit-box-shadow: var(--shadow);
           box-shadow: var(--shadow);
+          display: block ;
 }
 .sticky-header .main-header__menu-box {
   padding-left: 0px !important;
